@@ -28,6 +28,7 @@ var search = function(nums, target) {
             end = mid - 1
         }
     }
+    // If the target is not found, return -1.
     return -1
 };
 
